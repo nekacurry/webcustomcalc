@@ -6,23 +6,25 @@
 </head>
 <body>
     <main>
-        <h1>Lizard Calculator</h1>
+        <div class="header">
+            <h1>Lizard Calculator</h1>
             <p>How many lizards can you fit in your home?</p>
-            <div class="boxes">
-                <p>Lizard Type
-                    <select id="select-lizard">
-                        <option value="8">Bearded Dragon</option>
-                        <option value="32">Iguana</option>
-                        <option value="5">Gecko</option>
-                        <option value="12">Chameleon</option>
-                    </select>
-                </p>
-                <p>Est. SqFt
+        </div>
+        <div class="boxes">
+            <p>Lizard Type
+                <br><select id="select-lizard">
+                    <option value="8">Bearded Dragon</option>
+                    <option value="32">Iguana</option>
+                    <option value="5">Gecko</option>
+                    <option value="12">Chameleon</option>
+                </select>
+            </p>
+            <p>Est. SqFt
                 <br><input id="input-sqft" value="900" type="number">
-                </p>
-                <p>Est. % of Furniture
+            </p>
+            <p>Est. % of Furniture
                 <br><input id="input-furn" value="60" type="number">
-                </p>
+            </p>
         <section id="total">
             <p>Total Amount of Lizards</p>
             <div id="display">180</div>
