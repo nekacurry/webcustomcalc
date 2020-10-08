@@ -1,16 +1,58 @@
+body {
+    font-family: "Noto Sans";
+    margin: 0%;
+}
 .header {
     text-align: center;
+    font-size: x-large;
+    font-family: "Secular One";
+    background-color: #6eeea8a2;
+    background-image: url(images/fake-luxury.png);
+    margin-top: 0;
+    padding: 1%;
+    color: #365734;
 }
 
 .header p {
     margin-top: -20px;
+    font-family: "Noto Sans";
+    color: #558352;
 }
 
 .boxes{
+   display: flex;
+   justify-content: space-around;
+   align-content: flex-end;
+   align-items: center; 
+   margin-top: 5%;
+}
+#inputs > p {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
     text-align: center;
+    line-height: 300%;
+    font-size: x-large;
+}
+#total, #inputs {
+    background-color: #73d9f3a2;
+    background-image: url(images/fake-luxury.png);
+    margin: 0;
+    padding: 1%;
+    border-radius: 2em;
+    
 }
 
+#total p {
+    font-size: x-large;
+    font-family: "Secular One";
+}
+
+#display {
+    text-align: center;
+    font-size: xx-large;
+}
+
+input, select {
+    font-size: large;
+    text-align: center;
+}
