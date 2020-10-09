@@ -1,6 +1,7 @@
 body {
     font-family: "Noto Sans";
     margin: 0%;
+    background-color: #fbfdfdee;
 }
 .header {
     text-align: center;
@@ -24,7 +25,8 @@ body {
    justify-content: space-around;
    align-content: flex-end;
    align-items: center; 
-   margin-top: 5%;
+   margin: 5% 20% 0% 20%;
+
 }
 #inputs > p {
     display: flex;
@@ -33,12 +35,14 @@ body {
     line-height: 300%;
     font-size: x-large;
 }
+
 #total, #inputs {
     background-color: #73d9f3a2;
     background-image: url(images/fake-luxury.png);
     margin: 0;
-    padding: 1%;
+    padding: 1% 5% 2% 5%;
     border-radius: 2em;
+    color: #405c64;
     
 }
 
